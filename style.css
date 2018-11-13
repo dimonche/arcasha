@@ -35,3 +35,42 @@
 .arcasha:hover {
 background: red;
 }
+.bg {
+    background-image: url(img/normal_deadpool-wide-wallpaper.jpg);
+    height: 100vh;
+    background-position: center; 
+    display: table;
+}
+.bg h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    background-color: black;
+    opacity:0.5;
+    padding: 20px 20px 20px 20px;
+    margin: 200px 30px 10px 30px;
+
+}
+.bg a {
+    text-align: center;
+        font-weight: 700;
+        color: white;
+        font-family: Arial;
+        text-decoration: none;
+        padding: .8em 1em calc(.8em + 3px);
+        border-radius: 3px;
+        background: rgb(64,199,129);
+        box-shadow: 0 -3px rgb(53,167,110) inset;
+        transition: 0.2s;
+
+      } 
+      .bg a { background: rgb(53, 167, 110); }
+      .bg a{
+        background: rgb(33,147,90);
+        box-shadow: 0 3px rgb(33,147,90) inset;
+      }
+
+
+
+
+
